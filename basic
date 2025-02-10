@@ -13,4 +13,8 @@ with open(file_path, "w") as file:
 
 print(f"File created at: {file_path}")
 
-# 
+#  Read created file in colab
+
+with open("/content/drive/My Drive/sample.txt", "r") as file:
+  content = file.read()
+  print(content)

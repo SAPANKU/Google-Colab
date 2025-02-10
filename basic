@@ -1,0 +1,16 @@
+#  first need to mount Drive in colab
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+# create an file in colab
+
+
+file_path = "/content/drive/My Drive/sample.txt"
+
+with open(file_path, "w") as file:
+    file.write("Hello, this is a test file saved in Google Drive!")
+
+print(f"File created at: {file_path}")
+
+# 

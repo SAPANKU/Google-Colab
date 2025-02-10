@@ -3,6 +3,11 @@
 from google.colab import drive
 drive.mount('/content/drive')
 
+# upload file 
+from google.colab import files
+uploaded = files.upload()
+
+
 # create an file in colab
 
 

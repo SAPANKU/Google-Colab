@@ -6,12 +6,10 @@ drive.mount('/content/drive')
 # create an file in colab
 
 
-file_path = "/content/drive/My Drive/sample.txt"
-
+file_path = "/content/drive/My Drive/python.txt"
 with open(file_path, "w") as file:
-    file.write("Hello, this is a test file saved in Google Drive!")
-
-print(f"File created at: {file_path}")
+  file.write("Wellcome to my sample python file")
+print(content)
 
 #  Read created file in colab
 
